@@ -1,0 +1,162 @@
+/* code that I would use if I had ownership of the gif below */
+/*
+.with-background{
+    margin: 0;
+    background-image: url("https://i.pinimg.com/originals/f0/a5/3d/f0a53defdbb922639e0b4c4e100f8d04.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    
+    opacity: 95%;
+}*/
+
+.sidebar{
+    position: fixed;        /* fixed on the page, so it always stays */
+    width: 250px;           /* sidebar is 250px */
+    top: 0;                 /*keeps the sidebar to the top, left and bottom of the page */
+    left: 0;
+    bottom: 0;
+    background: black;    /* black box */
+}
+
+.sidebar h1{
+    display: block;                          /* displays text as blocks */
+    padding: 10px 20px 50px 20px;            /* pushes the text below even further, but also spaces the text properly (maybe a better way but oh well) */
+    color: white;                          /* text is white */
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;     /* font from google */
+    letter-spacing: 1.8px;                   /* letter spacing looks nicer */
+    text-transform: uppercase;               /* changes the text to uppercase lettering */
+    font-weight: 400;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.sidebar a{
+    display: block;
+    padding: 10px 20px 30px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive; 
+    letter-spacing: 1.8px;
+}
+
+
+/* makes the text green when active but with the changes in color to the text already, it doesn't show the green properly, unless i change the hover to white/no color */
+/* 
+.sidebar a:active{
+    color:green;
+} */
+
+
+.sidebar a:hover{
+    color: yellow;                    /* color it changes to after transition */
+    margin-left: 20px;                  /* moves the text to the left */
+    transition:0.4s;                    /* how fast it moves */
+}
+
+.no-dot{
+    list-style-type: none;
+    padding:0;
+}
+
+/* Text needs to be pushed to the side so it doesn't get overlapped by the sidebar*/
+.margin-push{
+    margin-left: 255px;
+}
+
+.text-format{
+    color:black;
+    font-family: 'Indie Flower', cursive;
+}
+
+.text-read{
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+.link-format{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+
+
+
+/* need to figure the code below out because it pushes white space onto the website but I think I know why and it's due to the padding but before I fixed it, It was a big problem */
+/*
+#my-page-header{
+    color:black;
+    position: relative;
+    padding-top: 600px;
+    padding-left: 270px;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+
+
+#my-page-text{
+    color:black;
+    position: relative;
+    padding-top:100px;
+    padding-left:270px;
+    text-transform: uppercase;
+    font-size: 45px;
+} */
+
+
+
+.big-h1{
+    font-size: 60px;
+}
+
+#home-page-h1-position{
+    bottom: 80px;
+    left: 270px;
+    position: fixed;
+}
+
+#home-page-text{
+    bottom: 10px;
+    left: 430px;
+    font-size: 40px;
+    position: fixed;
+}
+
+#home-page-picture{
+    position: absolute;
+    top:5px;
+    right:5px;
+}
+
+
+
+.container{
+    border: black;
+    border-style: double;
+    padding:5px;
+}
+
+.center-page-margin{
+    margin-left:30%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.center-page-margin2{
+    margin-left:30%;
+    margin-right: 20%;
+}
+
+#chaz:hover{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); /*makes the background color "rainbow" */
+}
+
+.uppercase{
+    text-transform: uppercase;
+    text-decoration: underline;
+}

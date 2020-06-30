@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Chaz's blog</title>
+        <meta charset="UTF-8">
+        <!-- Style sheet link -->
+        <link href="../styles/main.css" rel="stylesheet" type="text/css">
+        <!-- The link to the font Pangolin (google font)-->
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- list of links or the sidebar navigation -->
+        <div class="sidebar">
+            <h1>Links Below</h1>
+            <ul class="no-dot">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="#">unknown</a></li>
+              <li><a href="sprint1-technical.html">sprint-1 technical</a></li>
+              <li><a href="sprint2-technical.html">sprint-2 technical</a></li>
+              <li><a href="#">unknown</a></li>
+              <li><a href="#">unknown</a></li>
+              <li><a href="#">unknown</a></li>
+            </ul>
+        </div>
+        <!-- Where most of the text will go -->
+        <div class="margin-push text-read center-page-margin2 container">
+          <h1>What are the best practices associated with using <span class="uppercase"><em>classes</em></span> vs. <span class="uppercase"><em>ids</em></span>?</h1>
+          <p>
+              I chose to focus on this topic because I used classes and Ids more than I used the elements from the other topics. Although I wouldn't say I'm a master, especially when it comes to giving them names but all we can do is try, right?
+          </p>
+          <p><em>"Only use ID’s once, but you can use classes over and over."</em></p>
+          <p>This is a fundametal that slips through people's minds and they often ask "why not just use Ids?" or "why not just use Classes?" And honestly, even though you <em>could</em> just use classes, it's not how we are supposed to (for reasons such as conflicts, validation and javascript etc.) There are uses for both Ids and classes which I will get to down below. Also this fundamental helps when understanding the differences between the two.</p> 
+          </br>
+          <h3 class="uppercase">Class Selector:</h3>
+          <p>
+              Classes are used to style more than one element, or to apply many styles to one element.
+          </p>
+          <div>
+            <figure>
+                <img src="../images/one-class.png" alt="One Class Code (html)">
+                <figcaption>This is an example of how to use the class selector in html</figcaption>
+            </figure>
+            <figure>
+                <img src="../images/multiple-class.png" alt="Mutiple Class Code (html)">
+                <figcaption>You can add more than one class with a space</figcaption>
+            </figure>
+            <figure>
+                <img src="../images/class-code.png" alt="One Class Code (Css)">
+                <figcaption>The . or Dot is the class selector when using css</figcaption>
+            </figure>
+          </div>
+          </br>
+          <h3 class="uppercase">Id selector:</h3>
+          <p>
+              Ids are unique, where you don't want to change a group of elements but only a specific one.
+          </p>
+          <div>
+            <figure>
+                <img src="../images/one-id.png" alt="Id code (html)">
+                <figcaption>This is an example of how to use the Id selector in html</figcaption>
+            </figure>
+            <figure>
+                <img src="../images/id-code.png" alt="Id Code (Css)">
+                <figcaption>The # or Hashtag is the Id selector when using html</figcaption>
+            </figure>
+          </div>
+          </br>
+          <h3 class="uppercase">Practical uses:</h3>
+          <p>
+            To use them practically, we should avoid using classes and Ids when there is no need to. As always make sure to take a look at your code and think "Do I need this?" beause if the answer is no, well, then you might want to get rid of it.
+          </br>Next, If We choose to use a class, we need to make sure this class will be used consitently throughout the html or if there is a group of elements that we want to style. Classes are mainly used for that reason.
+          </br>If we choose to use an Id, we need to make sure that this Id will be used once on this page, otherwise you'll have to use a class. Elements can only have one Id and since they're specific, it would be hard to overlap two Ids. Where as, Classes may overlap all the time. That is a problem, but If an Id and a class overlap, the Id will have priority.
+          </br>There are more uses for the Ids and classes when it comes to javascript but we leave that for the next sprint and we move.
+          </p>
+          <p>This page helped me write this bad boy. <a href="https://css-tricks.com/the-difference-between-id-and-class/" target="_blank">css-tricks.com</a></p>
+        </div>    
+    </body>
+  </html>
