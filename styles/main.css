@@ -1,14 +1,23 @@
 /* code that I would use if I had ownership of the gif below */
-/*
+
+
+.classic-background{
+    background-color: white;
+
+}
+
+.smaller-pages{
+    box-sizing: border-box;
+    height:100vh;
+}
+    
 .with-background{
     margin: 0;
-    background-image: url("https://i.pinimg.com/originals/f0/a5/3d/f0a53defdbb922639e0b4c4e100f8d04.gif");
-    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/originals/22/62/10/226210549a94b8a5a9e3bc231187f6cd.jpg");
     background-size: cover;
     background-color: black;
     
-    opacity: 95%;
-}*/
+}
 
 .sidebar{
     position: fixed;        /* fixed on the page, so it always stays */
@@ -115,16 +124,15 @@
 }
 
 #home-page-h1-position{
-    bottom: 80px;
-    left: 270px;
-    position: fixed;
+    top: 500px;
+    position: relative;
 }
 
 #home-page-text{
-    bottom: 10px;
-    left: 430px;
+    top: 500px;
+    left: 0px;
     font-size: 40px;
-    position: fixed;
+    position: relative;
 }
 
 #home-page-picture{
@@ -138,6 +146,7 @@
 .container{
     border: black;
     border-style: double;
+
     padding:5px;
 }
 
