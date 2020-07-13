@@ -1,19 +1,22 @@
 /* code that I would use if I had ownership of the gif below */
 
+a{
+    color: orangered;
+}
 
 .classic-background{
     background-color: white;
 
 }
 
-.smaller-pages{
+/* .smaller-pages{
     box-sizing: border-box;
     height:100vh;
-}
+} */
     
 .with-background{
     margin: 0;
-    background-image: url("https://i.pinimg.com/originals/22/62/10/226210549a94b8a5a9e3bc231187f6cd.jpg");
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/9/d8/goroku-art-anime-devushka-priroda-derevia-zakat.jpg");
     background-size: cover;
     background-color: black;
     
@@ -171,3 +174,4 @@
     text-transform: uppercase;
     text-decoration: underline;
 }
+
