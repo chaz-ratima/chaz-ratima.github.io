@@ -29,7 +29,29 @@ a{
     left: 0;
     bottom: 0;
     background: black;    /* black box */
+    overflow-y: scroll;      /* If there is more than [x] content on page, add a scrollbar (only for sidebar) */
 }
+
+/* Size of Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* background of scrollbar */
+::-webkit-scrollbar-track {
+    background:rgb(56, 55, 55);
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+/* Hover for scrollbar handle */
+::-webkit-scrollbar-thumb:hover {
+    background: yellow;
+}
+
 
 .sidebar h1{
     display: block;                          /* displays text as blocks */
