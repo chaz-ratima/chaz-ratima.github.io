@@ -119,6 +119,28 @@ a{
     text-align: center;
 }
 
+.boxed {
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+ .boxed:hover {
+        color: yellow;
+        padding-left: 50px;
+        transition:0.4s;
+  }
+
+.centerbox {
+    text-align: center;
+    display: block;
+}
 
 
 
